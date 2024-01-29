@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+body {
+    background-color: #f2f1ef;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    background-color: #f2f1ef;
+}
+
+#sidebar {
+    min-width: 250px;
+    background-color: #f2f1ef; /* Dark background color for sidebar */
+    padding: 50px;
+    color: white;
+    font-size: 1.375rem;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+#content {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+#content h2 {
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-family: 'Jost', sans-serif;
+}
+
+#content p {
+    font-size: 2.5625rem;
+}
+
+#sidebar a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#sidebar a:hover {
+    color: #2e2e2ebb;
+}
