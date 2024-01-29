@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Jost:wght@200&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Inter:wght@300;400&family=Jost:wght@200&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@100;200;300;400;500;600;700&display=swap');
 
 body {
     background-color: #f2f1ef;
@@ -27,7 +27,50 @@ html {
     line-height: 65px;
 }
 
+strong {
+    color: #114CB6;
+    font-weight: 700;
+}
+
+.card-title {
+    font-size: 1.5625rem;
+    color: #114CB6;
+    font-weight: 700;
+}
+
+.card-img-top {
+    filter: grayscale(100%) invert(10%) opacity(1);
+}
+
 #content h2 {
     font-family: 'Playfair Display', sans-serif;
     font-size: 20px;
 }
+
+#content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+@media  (max-width: 896px) {
+    #content p {
+        font-size: 63px;
+    }
+}
+
+
+::-webkit-scrollbar {
+    width: .1875rem;
+    background-color: #f2f1ef;
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #114CB6;
+    transition: 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #67436a;
+}
+
