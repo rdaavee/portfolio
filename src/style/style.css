@@ -15,6 +15,7 @@ html {
 }
 
 .logo {
+    color: #114CB6;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
@@ -35,11 +36,13 @@ html {
 }
 
 strong {
-    font-weight: 700;
+    font-size: 17px;
+    font-weight: 800;
     font-family: 'Montserrat', sans-serif;
+    color: #114CB6;
 }
 
-.bootstrap {
+/* .bootstrap {
     color: #7952B3;
 }
 
@@ -57,7 +60,7 @@ strong {
 
 .css {
     color: #264de4;
-}
+} */
 
 .card-title {
     font-size: 1.5625rem;
@@ -69,21 +72,45 @@ strong {
     filter: grayscale(100%) invert(10%) opacity(1);
 }
 
+.card-img-top:hover {
+    box-shadow: 0px 7px 20px 0px rgba(135,135,135,1);
+    filter: grayscale(0%) invert(0%) opacity(1);
+    transition: 0.3s ease-in-out;
+    transform: scale(1.009);
+}
+
 #content h2 {
     font-family: 'Playfair Display', sans-serif;
     font-size: 20px;
 }
 
 #content h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-weight: 200;
+    letter-spacing: 17px;
+    color: rgba(128, 128, 128, 0.689);
 }
 
 @media  (max-width: 896px) {
     #content p {
         font-size: 63px;
     }
+
+    #projects {
+        text-align: center;
+    }
+
+    #skills {
+        text-align: center;
+    }
+
 }
+
+.skills-img {
+    width: 30px;
+}
+
+
 
 
 ::-webkit-scrollbar {
