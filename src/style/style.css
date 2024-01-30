@@ -15,7 +15,6 @@ html {
 }
 
 .logo {
-    color: #114CB6;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
@@ -25,8 +24,12 @@ html {
     font-family: sans-serif;
 }
 
+.nav-item a:hover {
+    color: #114CB6;
+}
+
 #content {
-    margin-left: 4px;
+    margin-left: .25rem;
 }
 
 #content p {
@@ -36,7 +39,7 @@ html {
 }
 
 strong {
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
     color: #114CB6;
@@ -81,13 +84,13 @@ strong {
 
 #content h2 {
     font-family: 'Playfair Display', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 #content h2 {
     font-family: 'Playfair Display', sans-serif;
     font-weight: 200;
-    letter-spacing: 17px;
+    letter-spacing: 1.0625rem;
     color: rgba(128, 128, 128, 0.689);
 }
 
@@ -103,14 +106,16 @@ strong {
     #skills {
         text-align: center;
     }
-
+    
+    .row-cols-md-2 .col {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 }
 
 .skills-img {
-    width: 30px;
+    width: 1.875rem;
 }
-
-
 
 
 ::-webkit-scrollbar {
