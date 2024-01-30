@@ -11,36 +11,42 @@
 </head>
 <body>
 
-<div class="wrapper">
+<div class="wrapper" id="wrapper">
     <!--========== SIDEBAR ==========-->
     <nav class="navbar navbar-light bg-light sticky-top">
         <div class="container-fluid logo">
-            <a class="navbar-brand fs-4 ms-3" href="#">Ran.dev</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contacts">Contact</a>
-                </li>
-            </ul>
+            <a href="" class="navbar-brand fs-4 ms-3">Ran.dev</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="text-muted offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav text-center">
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link active" aria-current="page">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projects" class="nav-link">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </nav>
 
     <!--========== CONTENT SECTIONS ==========-->
     <div id="content" class="fs-2">
-
         <!--========== ABOUT SECTION ==========-->
         <section id="about" class="py-5 container-fluid">
                 <p style="font-weight: 300;">Ran is a student and he is dedicated to building responsive and beautiful websites and learning modern technologies for web development.</p>
-                <p class="text-muted" style="font-weight: 400; font-size: 20px; line-height: 20px; font-family: 'Inter', sans-serif; margin-top: 60px;">I primarily work on personal projects and looking for job opportunities that would help me grow as a developer. Currently, you can find me learning with <strong>Bootstrap, Tailwind CSS,</strong> and anything <strong>HTML, Javascript,</strong> and <strong>CSS</strong> related.</p>
+                <p class="text-muted" style="font-weight: 400; font-size: 17px; line-height: 20px; font-family: sans-serif; margin-top: 60px;">I primarily work on personal projects and looking for job opportunities that would help me grow as a developer. Currently, you can find me learning with <strong class="bootstrap">Bootstrap</strong>, <strong class="tailwind-css">Tailwind CSS</strong>, and anything <strong class="html">HTML</strong>, <strong class="javascript">Javascript</strong>, and <strong class="css">CSS</strong> related.</p>
         </section>
 
         <!--========== PROJECTS SECTION ==========-->
