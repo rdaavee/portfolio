@@ -111,10 +111,24 @@ strong {
         flex: 0 0 50%;
         max-width: 50%;
     }
+
+    .snake {
+        height: 100px;
+    }
 }
 
 .skills-img {
-    width: 1.875rem;
+    width: .9375rem;
+}
+
+.icons img {
+    filter: grayscale(100%) invert(50%) opacity(1);
+}
+
+.icons img:hover {
+    filter: grayscale(0%) invert(0%) opacity(1);
+    transition: 0.3s ease-in-out;
+    transform: scale(1.009);
 }
 
 
