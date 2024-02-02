@@ -35,7 +35,7 @@ html {
 #content p {
     font-family: 'Playfair Display', sans-serif;
     font-size: 75px;
-    line-height: 65px;
+    line-height: 75px;
 }
 
 strong {
@@ -44,26 +44,6 @@ strong {
     font-family: 'Montserrat', sans-serif;
     color: #114CB6;
 }
-
-/* .bootstrap {
-    color: #7952B3;
-}
-
-.tailwind-css {
-    color: #3ebff8;
-}
-
-.html {
-    color: #e5532c;
-}
-
-.javascript {
-    color: #f3dd54;
-}
-
-.css {
-    color: #264de4;
-} */
 
 .card-title {
     font-size: 1.5625rem;
@@ -97,6 +77,7 @@ strong {
 @media  (max-width: 896px) {
     #content p {
         font-size: 63px;
+        line-height: 65px;
     }
 
     #projects {
@@ -106,8 +87,12 @@ strong {
     #skills {
         text-align: center;
     }
+
+    #certificates {
+        text-align: center;
+    }
     
-    .row-cols-md-2 .col {
+    .row-cols-md-1 .col {
         flex: 0 0 50%;
         max-width: 50%;
     }
@@ -130,7 +115,6 @@ strong {
     transition: 0.3s ease-in-out;
     transform: scale(1.009);
 }
-
 
 ::-webkit-scrollbar {
     width: .1875rem;
