@@ -80,6 +80,10 @@ strong {
         line-height: 65px;
     }
 
+    #about h2 {
+        text-align: center;
+    }
+
     #projects {
         text-align: center;
     }
